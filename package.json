@@ -1,0 +1,23 @@
+{
+  "name": "debug-stripe",
+  "version": "1.0.0",
+  "description": "Just a copy of stripe-debug.js",
+  "main": "debug-stripe.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eddywashere/debug-stripe.git"
+  },
+  "keywords": [
+    "stripe",
+    "test",
+    "debug"
+  ],
+  "author": "Eddy Hernandez",
+  "bugs": {
+    "url": "https://github.com/eddywashere/debug-stripe/issues"
+  },
+  "homepage": "https://github.com/eddywashere/debug-stripe#readme"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "debug-stripe",
+  "version": "1.0.0",
+  "authors": [
+    "edward.d.hernandez@gmail.com"
+  ],
+  "description": "Just a copy of stripe-debug.js",
+  "main": "stripe-test.js",
+  "keywords": [
+    "stripe",
+    "test",
+    "karma"
+  ],
+  "license": "None",
+  "homepage": "https://github.com/eddywashere/debug-stripe",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
