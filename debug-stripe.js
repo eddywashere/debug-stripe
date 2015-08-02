@@ -11,13 +11,6 @@
 
   hasWarn = 'console' in window && 'warn' in window.console;
 
-  if (!isSafeStripeDomain && 'querySelectorAll' in document && hasWarn && !false) {
-    scripts = document.querySelectorAll('script[src^="' + stripejsBaseUrl + '"]');
-    if (!scripts.length) {
-      console.warn('It looks like Stripe.js is not being loaded from https://js.stripe.com. Stripe does not support serving Stripe.js from your own domain.');
-    }
-  }
-
   if (this.Stripe) {
     if (hasWarn && !this.Stripe.isDoubleLoaded && !this.Stripe.earlyError) {
       console.warn('It looks like Stripe.js was loaded more than one time. Please only load it once per page.');
